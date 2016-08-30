@@ -10,5 +10,5 @@ Misuse of the WS2811 LED driver, you can also drive up to 3 vibration motors wit
 
 3) Parallel
 
-A dedicated micro controller (in this case: A MSP430G2553 (small package and two wire programming interface)) drives up to four vibration motors. Wiring is done with a standard 4 wire flat cable with crimped connectors. A voltage regulator board in certain distances (corresponding to power consumption - see max current for flat flex cables) will regulate voltage down from a higher supply voltage. While wiring is easy, you have to program each controller with a unique ID (all boards receive serial commands parallel) - the programing interface is also included in the 4 wire connector.
+A dedicated micro controller (in this case: A MSP430G2553 (small package and two wire programming interface)) drives up to four vibration motors. Wiring is done with a standard 4 wire flat ribbon cable with crimped connectors. A voltage regulator board in certain distances (corresponding to power consumption - see max current for flat ribbon cables) will regulate voltage down from a higher supply voltage. While wiring is easy, you have to program each controller with a unique ID (all boards receive serial commands parallel) - the programing interface is also included in the 4 wire connector.
 
