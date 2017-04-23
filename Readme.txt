@@ -12,3 +12,10 @@ Misuse of the WS2811 LED driver, you can also drive up to 3 vibration motors wit
 
 A dedicated micro controller (in this case: A MSP430G2553 (small package and two wire programming interface)) drives up to four vibration motors. Wiring is done with a standard 4 wire flat ribbon cable with crimped connectors. A voltage regulator board in certain distances (corresponding to power consumption - see max current for flat ribbon cables) will regulate voltage down from a higher supply voltage. While wiring is easy, you have to program each controller with a unique ID (all boards receive serial commands parallel) - the programing interface is also included in the 4 wire connector.
 
+Can be found in the deprecated files, at the moment we use the I2C version, with 3D-design files for holder for 
+- Intel Realsense Camera
+- Up Bord (Chassis from https://sketchfab.com/models/c38cb411538d41c281d08b0f8ed3b875)
+- Battery Pack  (Sandberg PowerBank 18200)
+- Wires, PCBs
+- Motor (5mm diameter, 8mm length, integrated executer)
+
