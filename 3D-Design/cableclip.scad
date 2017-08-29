@@ -1,17 +1,17 @@
-numberOfLayer = 4; //height
-numberOfWires = 8; //parallel wires
+numberOfLayer = 3; //height
+numberOfWires = 5; //parallel wires
 fabric=1;
 width=5;
 
 
-for(i=[0:3]) {
-    for(j=[0:3]) {
-        translate([j*17,i*11,0])
+for(i=[0:7]) {
+    for(j=[0:7]) {
+        translate([j*15,i*11,0])
         complete();
     }
 }
 
-
+complete();
 //translate([0,0,1])
 //cables();
 
