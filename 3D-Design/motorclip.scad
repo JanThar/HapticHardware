@@ -1,35 +1,45 @@
-//alles in mm
-//spezifikationen des Bauteils
-r_durchmesser = 5;
-r_laenge = 10;
-r_kasten_breite = 2;
+//please use the method named test to see if everthing was scaled correctly (for example big motors need stronger clippers)
+// to print zoue the compete method
+//every number is measured in mm
 
-Kabel_durchmesser = 1;
+complete();
+//test();
 
 
-// Wandstärken 
-wand_laenge = 1; //mindestens 1
-b_ueberlappung = 3; //ueberlappung mit Stoff + ges_hoehe/2 mindestens 1
-wand_breite = 1; //mindestens 1
-wand_hoehe = 1; //mindestens 1
+//size of the motor
 
+r_durchmesser = 5; //motor diameter
+r_laenge = 10;//length of the motor
+r_kasten_breite = 2; // sometimes the motor has a little box on the side for the contacts
+
+Kabel_durchmesser = 1; // diameter of the used cable
+
+// Wall thickness
+wand_laenge = 1; //Wall thickness of the legth side minimum 1
+
+wand_breite = 1; //Wall thickness of the broad side minimum 1
+wand_hoehe = 1; ////Wall thickness of the top and bottom side minimum 1 
+
+b_ueberlappung = 3; //overlap with fabric (broad side ) + (high/2 is added because of the round edges)
+clipper = 2; // size of the clipper hohles directly effects the strength of the clippers minimum 1
 //offsets
-clipper = 2; //mindestens/empfohlen 2
 
-clipper_offset = 0.3;//reibungsvermeidung (innenteil kleiner)
 
-stoff_spielraum = 0.1;// Spielraum der clipper um die stoffdicke zu kompensieren
+clipper_offset = 0.3;//if the clippers break because the fitting is too tigth use a higher value
 
-clipper_staerke = clipper/3;
-//diese offsets sind fuer zusaetzlichen platz im innenraum
+stoff_spielraum = 0.1;// compensates the thickness of the fabric
 
-off_breite = 0.5; //empfohlen groeßer 0,25
-off_laenge = 0.5; //empfohlen groeßer 0,25
-off_hoehe = 0.5; //empfohlen groeßer 0,25
+
+
+//use this for more inside space
+
+off_breite = 0.5; //broadside
+off_laenge = 0.5; //length side
+off_hoehe = 0.5; //hight
 
 //errechnete groeßen
 bauteil_breite = r_durchmesser + r_kasten_breite;
-
+clipper_staerke = clipper/3;
 //gesamtmaße des Quaders ohne runde Ecken
 ges_laenge = r_laenge + 2*wand_laenge + 2*off_laenge;
 
@@ -52,7 +62,6 @@ h_in_halb = in_hoehe/2;
 l_in_halb = in_laenge/2;
 b_in_halb = in_breite/2;
 
-complete();
 
 
 module complete()
