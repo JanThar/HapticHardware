@@ -17,5 +17,5 @@ Can be found in the deprecated files, at the moment we use the I2C version, with
 - Up Bord (Chassis from https://sketchfab.com/models/c38cb411538d41c281d08b0f8ed3b875)
 - Battery Pack  (Sandberg PowerBank 18200)
 - Wires, PCBs
-- Motor (5mm diameter, 8mm length, integrated excenter)
+- Motor (5mm diameter, 8mm length, integrated excenter). Since one should use easily available motors, also motors with external excenter can be used, for this case we added a univeral usable, and size-customizable for this motors as holder, alternative the flatter package can be adjusted. The motor diamter should be bigger than the excenter, and for the latter housing the motor diameter should be around 5mm, to use drinking straws as protection cover. Otherwise, the motor should work with 3.3V and should have longer sopper spring pads for easier soldering and reliable connection
 
