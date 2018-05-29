@@ -17,5 +17,5 @@ Can be found in the deprecated files, at the moment we use the I2C version, with
 - Up Bord (Chassis from https://sketchfab.com/models/c38cb411538d41c281d08b0f8ed3b875)
 - Battery Pack  (Sandberg PowerBank 18200)
 - Wires, PCBs
-- Motor (5mm diameter, 8mm length, integrated executer)
+- Motor (5mm diameter, 8mm length, integrated excenter)
 
