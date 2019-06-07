@@ -1,12 +1,12 @@
-for(i=[0:3]) {
-    for(j=[0:7]) {
-        translate([j*10,i*25,0])
-        complete();
-    }
-}
+//for(i=[0:3]) {
+//    for(j=[0:7]) {
+//        translate([j*10,i*25,0])
+//        complete();
+//    }
+//}
 
 //lowerhalf();
-//complete();
+complete();
 //upperhalf();
 //motor();
 
